@@ -8,10 +8,20 @@
 </head>
 <body>
   <h1>Hacktoberfest Frontend Contributors 2025 🎉</h1>
-  <p>Mukta creating a Pull Request!</p>
+  <p class="mb-4">Add your name and GitHub link below </p>
 
-  <ul id="contributors">
-    <li>👩‍💻 <a href="https://github.com/muktaa20">YOUR NAME</a></li>
-  </ul>
+  <div class="contributors-card">
+    <ul id="contributors">
+      <li>👩‍💻 <a href="https://github.com/muktaa20" target="_blank">Mukta</a></li>
+    </ul>
+
+    <div class="mt-4">
+      <input id="name" type="text" placeholder="Your Name" class="w-full mb-2 p-2 rounded bg-gray-100 text-black outline-none" />
+      <input id="github" type="url" placeholder="GitHub URL" class="w-full mb-2 p-2 rounded bg-gray-100 text-black outline-none" />
+      <button class="btn w-full" onclick="addContributor()">Add Contributor </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
